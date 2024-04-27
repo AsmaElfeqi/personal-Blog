@@ -1,0 +1,445 @@
+body{
+    margin:0;
+
+    overflow: auto;
+}
+*,*::after,*::before {box-sizing: border-box;}
+ 
+/* navbar start */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75px;
+    /* background-color:beige; */
+}
+.nav-bar .logo a{
+color:#ff305b;
+font-size: 24px;
+font-weight: 800;
+padding: 18px 0;
+}
+
+.nav-bar .logo a:hover{
+    text-decoration: none;
+    transition: all .3s ease 0s;
+}
+/* .navbar-menu{
+    background-color: blueviolet;
+} */
+
+.nav-bar .navbar-menu ul{
+   display: flex;
+   padding: 0 5px;
+   list-style: none;
+}
+
+.nav-bar .navbar-menu li {
+    padding: 0 10px;
+}
+.nav-bar .navbar-menu    ul li:first-child > a{color: #ff305b;}
+.nav-bar .navbar-menu ul a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar .navbar-menu  a:hover{
+ color:#ff305b;}
+
+/* navbar end */
+
+/* Header start */
+.header {
+    background-image: url(../images/hero\ img.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .header-content{
+    color: #ff305b;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.header-content h3{color: aliceblue;}
+
+/* Header end */
+
+/* About start */
+
+ .about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .about .about_content{
+    padding-left: 10rem;
+ }
+ .about .profile-about {display: flex;}
+ .about .profile-about li {list-style: none;}
+ .about .profile-about li  a {text-decoration: none;
+color: rgba(33, 32, 32, 0.395);}
+
+ .about .about_content h2 {
+    border-left: solid 3px red;
+ }
+
+ .about .about_content p {
+   padding-bottom: 40px;
+   border-bottom: dotted 1px rgb(122, 121, 122);
+}
+
+
+
+ .download-cv-btn button{background-color: #ff305b;
+  border: none;
+  padding: 15 25px;
+  border-radius: 5px;
+  font-weight: 400px;
+  font-size: 17px;
+}
+
+
+.download-cv-btn  button a {color: white;
+text-decoration: none;}
+
+.btn-right{margin-left: 10px;}
+.download-cv-btn button:hover{background-color: red;}
+.profile-about .profile-table1 ul {
+    padding-left: 0px;}
+
+
+.img
+{
+        border: solid 8px  rgb(0,0,0,.5);
+        border-radius: 5px;;
+        width:360px;height:440px;
+}
+.about .about-img
+{
+
+    position: relative;
+    top:20px;left:20px;
+}
+
+.dwn-load-icn{color: white;font-size: 20px;}
+.snd-icn{color: white;
+font-size: 20px;}
+
+
+.profile-about span 
+{
+    font-weight: bold;
+}
+/* About end */
+
+    /* services start */
+.Services
+{
+    margin-top: 100px;
+    padding-top:100px ;
+    padding-bottom: 100px;
+    background-color: #f1f1f1;
+
+}
+
+.Services .services-title h1{
+    text-align: center;
+}
+
+
+.service-item   h2
+{    
+    font-weight: bold;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color:rgb(56, 55, 55);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+
+ .Services .services-container .service-item {
+    margin-top: 60px;
+    padding: 40px 20px 30px 20px;
+    border-radius: 5px;
+    
+} 
+
+.Services .service-item:hover{
+    background-color: white;
+}
+
+ .Services .service-item span i{color: #ff305b;
+
+position: relative;
+left:90px;
+}
+
+.services span{text-align: center;}
+
+.line1,.line3{
+    width: 112px;
+    height: 5px;
+    border-bottom: 1px solid #ff305b;
+    position: relative;
+    left:700px;
+
+    }
+    .line2{
+        width: 300px;
+        height: 5px;
+        border-bottom: 1px solid #ff305b;
+        position: relative;
+        left:600px;
+    
+        }
+
+
+.Services .services-container
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+/* services end */
+
+
+
+/* Our Portfolio  start */
+
+
+.Our-Portfolio{
+    margin-top: 100px;
+}
+.Our-Portfolio  .ourportfolio-title  h1{
+/* background-color: antiquewhite; */
+margin:0 auto;
+text-align: center;
+
+} 
+
+
+ 
+
+.ourportfolio-btn{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+
+}
+
+.ourportfolio-btn button
+{
+    padding :5px 10px;
+    color:rgb(54, 53, 53);
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+.ourportfolio-btn button:first-child
+{
+    color: #ff305b;
+}
+
+
+.ourportfolio-imgs
+{ 
+
+    margin-top: 50px;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+
+}
+
+
+/* .wrapper{width:33.3333%;} */
+.wrapper  {width:33.3333%;
+padding: 10px;}
+
+.image 
+{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+} 
+.ourportfolio-imgs .wrapper .image .content{
+background-color: rgba(0,0,0,.7);
+position: absolute;
+top:0;
+left:0;
+right:0;
+bottom: 0;
+opacity: 0;
+width:100%;
+height:100%;
+transition: .6sec ease;} 
+ .ourportfolio-imgs .wrapper .image .content:hover{opacity:1 ;}
+
+
+/* Our Portfolio end*/
+
+
+
+/* Information start */
+.information{
+margin-top: 50px;
+margin-bottom: 50px;
+padding-top: 50px; 
+padding-bottom: 50px;   
+background-color: #f1f1f1;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly}
+
+
+
+
+
+.information .icon span{color: #ff305b;
+
+    position: relative;
+    left:45px;
+    }
+
+    .information .text {text-align: center;}
+
+    .information h3{color: #565353;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
+    .information h2{color: #242424;}
+/* Information End */
+
+
+
+
+/* client feedback startttt */
+
+.ClientFeedback{
+    margin-top: 100px;
+}
+.ClientFeedback  .ClientFeedback-title  h1{
+margin:0 auto;
+text-align: center;
+
+} 
+
+.ClientFeedback .content
+{   
+    padding:40px;
+    position: relative;
+    padding-top: 0;
+    padding-left: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    text-align: center;
+    width:800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.client-content{background-color: aquamarine;}
+.client-caption {
+    text-align: left;
+}
+
+.client-caption .client-stars{color:rgb(239, 131, 30)}
+/* client feedback edndddddd */
+ .client-caption span i{margin-right: 5px;color: #7e7a7a;}
+ .x{
+height:10px;
+z-index: 1;
+width: 20px;
+background-color: #ff305b;
+transform: rotate(30);
+position:absolute;
+top:0;
+left:0;
+
+}
+
+
+/* ourblog start */
+
+
+.blogs{
+    margin: 80px 0;
+    background-color: #f1f1f1;
+}
+.blogs .blogs-container {
+    
+margin:0 100px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-around;}
+
+.blogs .blog-item{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width:33.33%;
+    padding: 10px;
+}
+.blogs .blog-item .blog-caption{background-color: white;overflow: hidden;
+padding:5px 20px 10px 10px;}
+.ourBlog-title h1{text-align: center;}
+
+.iframe{width:100%;}
+ .Blogs .blog-item i {
+color: #333131;}  
+
+.Blogs .blog-item h3:hover{color:#ff305b}
+.blogs .blog-item img {width:100%;}
+.blogs h4{color: #565353;}
+.blogs h3{color: #494646;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+    .blogs .blog-caption {    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 16px;
+        color:#565353;
+    }
+    
+    
+    /* ourblog end */
+
+
+/* contact starttttttt */
+
+button{color:white;
+background-color: #ff305b;
+border:none;
+font-weight: 500; 
+font-size: 13px;
+padding:10px 20px;
+border-radius: 4px;}
+
+
+.contactus-contaniner .contactform {margin: 100px auto;
+    padding-top: 50px 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+/* contact enddddd */
+
+/* footer start */
+
+.Footer{background-color:#333333;text-align: center;padding-top: 50px ;padding-bottom: 50px;}
+
+.Footer .footer-icons ul {list-style: none;display: flex;justify-content: center;}
+.Footer .footer-icons ul li {padding-left: 30px;}
+.Footer .footer-icons span {color:white}
+.Footer .footer-icons span i:hover{color:#ff305b}
+
+.Footer .footer-caption{color:white ;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.Footer .footer-caption span{color:#ff305b}
+
+/* footer end */
+@media screen and (max-width:468){
+ .Header .nav-bar .navbar-menu ul {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+}
